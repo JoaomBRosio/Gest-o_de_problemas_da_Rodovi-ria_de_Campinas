@@ -57,22 +57,6 @@ gTTS: Para geração de áudio a partir de texto.
 Pygame: Para reprodução dos áudios gerados.
 
 HTML/CSS: Para construção das interfaces das páginas.
-
-Estrutura do Projeto
-plaintext
-
-├── app.py        
-├── templates/           
-|   ├── cadastro.html
-|   ├── login.html
-|   ├── home.html
-|   ├── chat.html
-|   ├── relatar_problema.html
-├── static/              
-├── requirements.txt    
-└── README.md            
-
-
 Como Usar
 
 Acesse a página de cadastro e registre-se com suas informações.
