@@ -34,21 +34,19 @@ Este projeto consiste em um sistema para gestão de problemas reportados na rodo
 - PostgreSQL (para banco de dados, eu usei o PgAdmin)
   
 #### 2. Clonar o Repositório
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
 
-3. Instalar as Dependências
+#### 3. Instalar as Dependências
 bash
 Copiar código
 pip install -r requirements.txt
 
-4. Configuração do Banco de Dados
+#### 4. Configuração do Banco de Dados
 Crie o banco de dados e configure as variáveis DB_HOST, DB_NAME, DB_USER, e DB_PASSWORD no código para conectar ao seu banco PostgreSQL.
 
-5. Executar o Projeto
-bash
+#### 5. Executar o Projeto
 Copiar código
 python app.py
 
@@ -63,16 +61,16 @@ HTML/CSS: Para construção das interfaces das páginas.
 Estrutura do Projeto
 plaintext
 
-├── app.py               # Arquivo principal da aplicação
-├── templates/           # Diretório com os arquivos HTML
+├── app.py        
+├── templates/           
 |   ├── cadastro.html
 |   ├── login.html
 |   ├── home.html
 |   ├── chat.html
 |   ├── relatar_problema.html
-├── static/              # Arquivos estáticos (CSS, JS, etc)
-├── requirements.txt     # Dependências do projeto
-└── README.md            # Este arquivo README
+├── static/              
+├── requirements.txt    
+└── README.md            
 
 
 Como Usar
